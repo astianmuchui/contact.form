@@ -33,8 +33,8 @@ $body = '<div class="mess">
     }else{
         echo '<div class="error"><h2>ERR: could not connect to mail server</h2></div>';
     }
-    
-
+    #Note
+//PHP MAIL SERVER WORKS WITH REAL HOSTING . LOCALHOST DOES'NT WORK
 
 ?>
 <!DOCTYPE html>
@@ -43,7 +43,7 @@ $body = '<div class="mess">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Test mail server </title>
+    <title>Simple contact form </title>
 </head>
 <body>
     <div class="contact">
